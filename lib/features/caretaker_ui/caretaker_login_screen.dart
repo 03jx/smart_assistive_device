@@ -145,7 +145,7 @@ const SizedBox(height: 10),
         SwitchListTile(
           title: const Text('وضع عدم الإزعاج (Do Not Disturb)', style: TextStyle(color: Colors.white)),subtitle: const Text('إيقاف التنبيهات الصوتية المؤقتة للجهاز', style: TextStyle(color: Colors.white54, fontSize: 12)),
           value: isDoNotDisturbActive,
-          activeColor: Colors.tealAccent,
+          activeThumbColor: Colors.tealAccent,
           onChanged: (bool value) {
             setState(() {
               isDoNotDisturbActive = value;
@@ -161,7 +161,7 @@ const SizedBox(height: 10),
           title: const Text('كتم صوت الجهاز', style: TextStyle(color: Colors.white)),
           subtitle: const Text('كتم مخرجات الـ TTS والتنبيهات', style: TextStyle(color: Colors.white54, fontSize: 12)),
           value: isDeviceMuted,
-          activeColor: Colors.tealAccent,
+          activeThumbColor: Colors.tealAccent,
           onChanged: (bool value) {
             setState(() {
               isDeviceMuted = value;

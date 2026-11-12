@@ -136,7 +136,7 @@ const SizedBox(height: 10),
           decoration: BoxDecoration(
             color: Colors.black,
             borderRadius: BorderRadius.circular(10),
-            border: Border.all(color: Colors.indigoAccent.withOpacity(0.5)),
+            border: Border.all(color: Colors.indigoAccent.withValues(alpha: 0.5)),
           ),
           child: const SingleChildScrollView(
             child: Text('[INFO] ESP32-S3 Initialized successfully.\n'
